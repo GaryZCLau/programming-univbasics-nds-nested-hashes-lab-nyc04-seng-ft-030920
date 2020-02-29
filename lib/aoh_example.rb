@@ -21,6 +21,13 @@ end
 def literal_aoh
   # Using Array literal syntax only, build a nested array that uses the data in
   # held in the constants
+  don_g = { name:  "Don Gately", occupation: "Live-in Staff" }
+  joelle_vd = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
+  pat_m =  { name:  "Pat Monteseian", occupation: "Staff" }
+  kate_g = { name:  "Kate Gompert", occupation: "None" }
+  bruce_g = { name:  "Bruce Green", occupation: "Fan of Mildred" }
+  array = [don_g, joelle_vd, pat_m, kate_g, bruce_g]
+  array
 end
 
 def aoh_lookup(aoh, row, key)
